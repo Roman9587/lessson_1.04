@@ -14,3 +14,126 @@ ul li{list-style:none;}
 img{vertical-align:top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 /*--------------------*/
+body{
+    font-family: 'Titillium Web', sans-serif;
+}
+.container{
+    max-width: 1140px;
+    height: 596px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.main{
+    max-height: 596px;
+    background-color: #87509c;
+}
+.header{
+    min-height: 37px;
+    padding: 60px 0 0 0 ;
+    text-align: center;
+}
+.logo{
+    margin: 0 483px 0 0;
+}
+.navbar{
+    display: inline-block;
+    margin: 13px 0 0 0;
+}
+.nav__link{
+    padding: 10px 17px;
+    
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.nav__link:hover{
+    background-color: #643a79;
+    transition: .2s linear;
+}
+.title{
+    color: #f7f3ea;
+    max-width: 906px;
+    margin: 147px auto 80px;
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    
+}
+.button{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 400;
+    background-color: #eb7d4b;
+    padding: 28px 81px;
+    color:#ffffff;
+    border-radius: 5px;
+    
+}
+.button:hover{
+    box-shadow: 0 0 3px 3px #c86a40;
+    transition: .2s linear;
+}
+/* services */
+.services{
+    max-height: 747px;
+    min-height: 37px;
+    padding: 60px 0 0 0 ;
+    text-align: center;
+    background-color: #17c2a4;
+}
+.main__title{
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #ffffff;
+    line-height: 29.91px;
+    margin-top: 59px;
+}
+.services__subtitle{
+    max-width: 603px;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.36px;
+    line-height: 26px;
+    color: #ffffff;
+    margin: 21px 0 0 250px;
+    text-align: center;
+}
+.main__title::after{
+    content: '';
+    display: block;
+    width: 87px;
+    height: 4px;
+    background-color: #000000;
+    opacity: 0.15;
+    margin: 21px auto;
+}
+/* services__items */
+.services__item{
+    width: 15%;
+    display: inline-block;
+    margin:78px 90px 0 0;
+}
+.name{
+    min-width: 183px;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 60px 0 27px 0;
+}
+.name__subtitle{
+    font-size: 16pz;
+    color: #ffffff;
+    font-weight: 300;
+    opacity: 0.6;
+}
+
+
+    
+
+
