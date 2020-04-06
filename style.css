@@ -215,6 +215,8 @@ body{
 }
 .skills__description{
     color: #3c4761;
+    width: 567px;
+    margin: 0 auto;
 }
 .stats{
     display:flex;
