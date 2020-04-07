@@ -80,7 +80,10 @@ body{
     text-transform: uppercase;
     border-radius: 5px;
 }
-
+.main__button:hover{
+    box-shadow:0 0 3px 3px #c86a40;
+    transition: .1s linear;
+}
 .btn{
     text-align: center;
 }
@@ -231,12 +234,73 @@ body{
     min-height: 1423px;
     background-color: #ffdd99;
 }
+.portfolio__section{
+    color: #393939;
+}
+.portfolio__name{
+    padding: 120px 0 62px 0;
+}
+.portfolio__description{
+    color: #393939;
+    width: 515px;
+    margin: 0 auto;
+}
+.portfolio__nav{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 54px auto 0;
+    font-size: 18px;
+    line-height: 19.5px;
+    text-transform: uppercase;
+}
+.portfolio__link{
+    color: #393939;
+    padding: 12px 27px;
+    background-color: #ebcb8d;
+    border-radius: 10px;
+}
+.portfolio__link:hover{
+    background-color: #fff;
+    transition: .2s linear;
+}
+.comp__icon{
+    display: flex;
+    width: 1100px;
+    flex-basis: 60%;
+    flex-wrap: wrap;
+    margin: 0 0 60px 0;
+    justify-content: space-between;
+}.pic{
+    margin-bottom: 60px;
+}
+.portfolio__button{
+    background-color: #17c2a4;
+    font-size: 18px;
+}
+.portfolio__button:hover{
+    box-shadow: 0 0 3px 3px #14a58b;
+    transition: .1s linear;
+}
 
 /* Block About us */
-.about__us{
+.about{
     width: 100%;
     min-height: 895px;
     background-color: #d74680;
+}
+.members{
+    flex-wrap: wrap;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.members__info{
+    flex-basis: 50%;
+}
+.members__say{
+    width: 326px;
+    text-align: right;
 }
 
 /* Block Touch */
@@ -245,6 +309,7 @@ body{
     min-height: 819px;
     background-color: #3c5499;
 }
+
 
 /* Footer */
 .footer{
