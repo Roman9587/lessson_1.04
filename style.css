@@ -292,13 +292,33 @@ body{
 .members__aaa{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 50%;
-    width: 1100px;
+    flex-basis: 60%;
     justify-content: space-between;
 }
+.members__bbb{
+    text-align: center;
+    width: 470px;
+}
 .members__say{
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 31.2px;
+    width: 326px;
+}
+.members__photo{
+    text-align: center;
+}
+.members__name{
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    font-size: 24px;
+    text-align: center;
 }
 .members__post{
+    color: #ffdd99;
+    text-align: center;
     font-size: 21px;
 	line-height: 1.5;
 	font-style: italic;
@@ -311,6 +331,12 @@ body{
     min-height: 819px;
     background-color: #3c5499;
 }
+.touch__name{
+    
+}
+.touch__section{
+    
+}
 
 
 /* Footer */
@@ -318,4 +344,21 @@ body{
     width: 100%;
     min-height: 112px;
     background-color: #344b8e;
+}
+.footer__nav{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.91px;
+    display: flex;
+    justify-content: space-between;
+    width: 938px;
+    padding: 48px 0 0 0;
+    margin: 0 auto;
+}
+.footer__link{
+    color: #ffffff;
+}
+.footer__link:hover{
+    color:#31a8d9;
+    transition: .2s linear;
 }
