@@ -289,18 +289,20 @@ body{
     min-height: 895px;
     background-color: #d74680;
 }
-.members{
-    flex-wrap: wrap;
+.members__aaa{
     display: flex;
-    margin: 0 auto;
+    flex-wrap: wrap;
+    flex-basis: 50%;
+    width: 1100px;
     justify-content: space-between;
 }
-.members__info{
-    flex-basis: 50%;
-}
 .members__say{
-    width: 326px;
-    text-align: right;
+}
+.members__post{
+    font-size: 21px;
+	line-height: 1.5;
+	font-style: italic;
+	margin: 0 0 30px 0;
 }
 
 /* Block Touch */
