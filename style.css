@@ -252,17 +252,17 @@ span{
     font-size: 32px;
 }
 .stats__img.p90{
-    background: url(./images/icon/Skills/blue.png)center
+    background: url(./images/icon/skills/Slice_7.png)center
     no-repeat;
 }
 .stats__img.p75{
-    background: url(./images/icon/Skills/pink.png)center no-repeat;
+    background: url(./images/icon/skills/pink_8.png)center no-repeat;
 }
 .stats__img.p70{
-    background: url(./images/icon/Skills/green.png)center no-repeat;
+    background: url(./images/icon/skills/green_8.png)center no-repeat;
 }
 .stats__img.p80{
-    background: url(./images/icon/Skills/orange.png)center no-repeat;
+    background: url(./images/icon/skills/orange_8.png)center no-repeat;
 }
 .stats__subtitle{
     text-align: center;
