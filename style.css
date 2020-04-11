@@ -79,6 +79,7 @@ body{
     color: #fff;
     text-transform: uppercase;
     border-radius: 5px;
+    margin-bottom: 145px;
 }
 .main__button:hover{
     box-shadow:0 0 3px 3px #c86a40;
@@ -86,6 +87,7 @@ body{
 }
 .btn{
     text-align: center;
+    padding: 0 0 145px 0;
 }
 
 /* Block Services */
@@ -132,12 +134,13 @@ body{
 /* Cards */
 .cards{
     display:flex;
-    justify-content: space-between;
-    flex-basis: 25%;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .cards__item{
     text-align: center;
+    margin: 0 0 55px 0;
+    
 }
 .cards__title{
     color: #ffffff;
@@ -168,11 +171,11 @@ body{
 .workers{
     display:flex;
     justify-content: space-between;
-    flex-basis: 25%;
     flex-wrap: wrap;
 }
 .workers__list{
     text-align: center;
+
 }
 .workers__name{
     color: #27283d;
@@ -218,16 +221,57 @@ body{
 }
 .skills__description{
     color: #3c4761;
-    width: 567px;
+    max-width: 567px;
     margin: 0 auto;
 }
-.stats{
-    display:flex;
+/* stats */
+ 
+.stats__skill{
+    display: flex;
     justify-content: space-between;
-    flex-basis: 25%;
     flex-wrap: wrap;
 }
-
+.stats__img{
+    display: flex;
+    flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+    margin: 0 auto 32px;
+}
+.percent{
+    color: #3c4761;
+    font-size: 50px;
+    line-height: 20.84px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+span{
+    font-size: 32px;
+}
+.stats__img.p90{
+    background: url(./images/icon/Skills/blue.png)center
+    no-repeat;
+}
+.stats__img.p75{
+    background: url(./images/icon/Skills/pink.png)center no-repeat;
+}
+.stats__img.p70{
+    background: url(./images/icon/Skills/green.png)center no-repeat;
+}
+.stats__img.p80{
+    background: url(./images/icon/Skills/orange.png)center no-repeat;
+}
+.stats__subtitle{
+    text-align: center;
+    color: #3c4761;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+}
 /* Block Portfolio */
 .portfolio{
     width: 100%;
@@ -242,13 +286,15 @@ body{
 }
 .portfolio__description{
     color: #393939;
-    width: 515px;
+    max-width: 515px;
     margin: 0 auto;
 }
+/* Navigation Portfolio */
 .portfolio__nav{
     display: flex;
     justify-content: space-between;
-    width: 400px;
+    flex-wrap: wrap;
+    max-width: 400px;
     margin: 54px auto 0;
     font-size: 18px;
     line-height: 19.5px;
@@ -264,19 +310,32 @@ body{
     background-color: #fff;
     transition: .2s linear;
 }
-.comp__icon{
+/* Portfolio Items */
+.portfolio__item{
     display: flex;
-    width: 1100px;
-    flex-basis: 60%;
+    max-width: 1100px;
     flex-wrap: wrap;
     margin: 0 0 60px 0;
     justify-content: space-between;
-}.pic{
-    margin-bottom: 60px;
+}.card{
+    width: 100%;
+    margin: 0 0 29px 0;
 }
+.card__subtitle{
+    text-align: center;
+    color: #393939;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.5px;
+    text-transform: uppercase;
+    margin: 0 0 65px 0;
+}
+/* Portfolio Button */
 .portfolio__button{
     background-color: #17c2a4;
     font-size: 18px;
+    display: inline-block;
+    
 }
 .portfolio__button:hover{
     box-shadow: 0 0 3px 3px #14a58b;
@@ -289,42 +348,45 @@ body{
     min-height: 895px;
     background-color: #d74680;
 }
-.members__aaa{
+/* Reviews */
+.users{
     display: flex;
     flex-wrap: wrap;
-    flex-basis: 60%;
     justify-content: space-between;
 }
-.members__bbb{
-    text-align: center;
-    width: 470px;
+.users__item{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 0 154px 0;
 }
-.members__say{
+.users__photo{
+    text-align: left;
+}
+.user__review{
+    max-width: 326px;
+    align-self: center;
+    margin: 0 0 0 48px;
+}
+.user__say{
     color: #ffffff;
-    font-size: 21px;
     line-height: 31.2px;
-    width: 326px;
+    font-size: 21px;
+    font-style: italic;
 }
-.members__photo{
-    text-align: center;
-}
-.members__name{
+.user__name{
     color: #ffffff;
+    font-size: 24px;
     font-weight: 700;
+    margin: 28px 0 0 0;
     line-height: 26px;
     text-transform: uppercase;
-    font-size: 24px;
-    text-align: center;
 }
-.members__post{
+.user__post{
     color: #ffdd99;
-    text-align: center;
-    font-size: 21px;
-	line-height: 1.5;
-	font-style: italic;
-	margin: 0 0 30px 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
 }
-
 /* Block Touch */
 .touch{
     width: 100%;
@@ -337,23 +399,30 @@ body{
 .touch__section{
     
 }
+/* Form */
 .form{
    margin: 0 auto;
    display: flex;
    justify-content: space-between;
-   width: 860px;
+   max-width: 860px;
+   flex-wrap: wrap;
 }
 .form__name{
-    
-    width: 414px;
+    display: flex;
+    flex-wrap:wrap ;
+    max-width: 414px;
+    width: 100%;
     height: 56px;
     padding: 22px 297px 20px 25px;
     border-radius: 5px;
     background-color: #273a71;
 }
+.form__name::placeholder{
+    color: #fff;
+}
 .form__area{
     width: 100%;
-    width: 860px;
+    max-width: 860px;
     height: 200px;
     padding-top: 24px;
     padding-left: 25px;
@@ -361,6 +430,10 @@ body{
     border-radius: 5px;
     background-color: #273a71;
 }
+.form__area::placeholder {
+    color:#fff
+}
+/* Button */
 .touch__button{
     font-family: 'Titillium Web', sans-serif;
     background-color: #30bae7;
@@ -378,12 +451,14 @@ body{
     background-color: #344b8e;
 }
 .footer__nav{
+    width: 100%;
     font-size: 24px;
     font-weight: 400;
     line-height: 29.91px;
     display: flex;
     justify-content: space-between;
-    width: 938px;
+    max-width: 938px;
+    flex-wrap: wrap;
     padding: 48px 0 0 0;
     margin: 0 auto;
 }
