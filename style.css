@@ -416,6 +416,7 @@ span{
     padding: 22px 297px 20px 25px;
     border-radius: 5px;
     background-color: #273a71;
+    color: #fff;
 }
 .form__name::placeholder{
     color: #fff;
@@ -429,6 +430,7 @@ span{
     margin: 27px 0 59px 0;
     border-radius: 5px;
     background-color: #273a71;
+    color: #fff;
 }
 .form__area::placeholder {
     color:#fff
